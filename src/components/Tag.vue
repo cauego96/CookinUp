@@ -1,13 +1,14 @@
 <script lang="ts">
 export default {
     props: {
-        texto: {type: String, required:true}
+        texto: {type: String, required:true},
+        ativa: {type: Boolean, default:false}
     }
 }
 </script>
 
 <template>
-    <span class="tag">
+    <span :class="['tag', {ativa} ]">
         {{ texto }}
     </span>
 </template>
@@ -20,6 +21,12 @@ export default {
    padding: 0.5rem;
    text-align: center;
    transition: 0.2s;
+   color: var(--cinza);
+   background: var(--cinza-claro);
+   font-weight: 400;
+ }
+
+ .tag.ativa {
    color: var(--creme, #FFFAF3);
    background: var(--coral, #F0633C);
    font-weight: 700;
