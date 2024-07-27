@@ -9,6 +9,6 @@ export default {
 </script>
 <template>
   <Banner />
-  <ConteudoPrincipal />
+  <router-view></router-view>
   <Rodape />
 </template>
