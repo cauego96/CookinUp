@@ -1,7 +1,6 @@
 <script lang="ts">
 import SelecionarIngredientes from './SelecionarIngredientes.vue';
 import SuaLista from './SuaLista.vue';
-import Tag from './Tag.vue';
 
 export default {
     data() {
@@ -9,7 +8,7 @@ export default {
             ingredientes: ['Alho', 'Manteiga', 'Oregano']
         }
     },
-    components: { SelecionarIngredientes, Tag, SuaLista }
+    components: { SelecionarIngredientes, SuaLista }
 }
 </script>
 
