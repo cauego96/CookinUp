@@ -16,7 +16,7 @@ The project developed is a recipe search engine, where the user selects the avai
 
 ## Project
 
-<img src="HelloVue_GIF.gif">
+<img src="CookinUp_GIF_2x.gif">
 
 This template should help get you started developing with Vue 3 in Vite.
 
