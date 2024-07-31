@@ -28,7 +28,7 @@ export default {
 </script>
 
 <template>
-<section class="mostrar-receitas">
+  <section class="mostrar-receitas">
     <h1 class="cabecalho titulo-receitas">Receitas</h1>
 
     <p class="paragrafo-lg resultados-encontrados">

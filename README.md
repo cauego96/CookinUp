@@ -1,5 +1,23 @@
 # cookin-up
 
+## Description
+
+In my search to learn more technologies, I took a course at Alura that taught me and challenged me to implement this project with Vue.js. I was able to learn its main concepts such as components, props, directives, lifecycle hooks and Vue Router. I also used Cypress for E2E testing, verifying how important they can be in any project.
+
+The project developed is a recipe search engine, where the user selects the available ingredients and the search returns the available recipes for the selected ingredients. 
+
+## Technologies Used
+
+- VueJS;
+- HTML;
+- TypeScript;
+- CSS;
+- Cypress;
+
+## Project
+
+<img src="HelloVue_GIF.gif">
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
